@@ -15,16 +15,20 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
       primary: green
-      accent: indigo
+      accent: green
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
       primary: green
-      accent: indigo
+      accent: green
 
 nav:
   - Sobre: index.md
+  - Anotações de aulas:
+    - Aula 01: "Anotacoes_de_aulas/Aula01.md"
+  - Tutoriais:
+    - VS Code: "Tutoriais/VSCode.md"
 
 repo_url: https://github.com/AlunosDiverseDEV2023/CodingTank1
 repo_name: CodingTank1

@@ -50,12 +50,12 @@ Primeiramente, baixar o arquivo adequado à distribuição. No ubuntu, é a .deb
 
 <div align="center">
     <p>Acessar o menu Extensions ou Extensões do VSCode</p>
-    <img src="../Assets/vscode1.png" width="600"><br><br>
+    <img src="https://raw.githubusercontent.com/AlunosDiverseDEV2023/CodingTank1/main/docs/Assets/vscode1.png" width="600"><br><br>
     <p>Pesquisar "C#"</p>
-    <img src="../Assets/vscode2.png" width="600"><br><br>
+    <img src="https://raw.githubusercontent.com/AlunosDiverseDEV2023/CodingTank1/main/docs/Assets/vscode2.png" width="600"><br><br>
     <p>Instalar as duas primeiras extensões listadas</p>
-    <img src="../Assets/extensoes1.png" width="400"><br><br>
-    <img src="../Assets/extensoes2.png" width="400">
+    <img src="https://raw.githubusercontent.com/AlunosDiverseDEV2023/CodingTank1/main/docs/Assets/extensoes1.png" width="400"><br><br>
+    <img src="https://raw.githubusercontent.com/AlunosDiverseDEV2023/CodingTank1/main/docs/Assets/extensoes2.png" width="400">
 </div>
 
 #### Passo 5: Testando

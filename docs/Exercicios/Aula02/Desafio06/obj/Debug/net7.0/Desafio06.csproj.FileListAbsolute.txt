@@ -1,0 +1,15 @@
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/obj/Debug/net7.0/Desafio06.csproj.AssemblyReference.cache
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/obj/Debug/net7.0/Desafio06.GeneratedMSBuildEditorConfig.editorconfig
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/obj/Debug/net7.0/Desafio06.AssemblyInfoInputs.cache
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/obj/Debug/net7.0/Desafio06.AssemblyInfo.cs
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/obj/Debug/net7.0/Desafio06.csproj.CoreCompileInputs.cache
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/bin/Debug/net7.0/Desafio06
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/bin/Debug/net7.0/Desafio06.deps.json
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/bin/Debug/net7.0/Desafio06.runtimeconfig.json
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/bin/Debug/net7.0/Desafio06.dll
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/bin/Debug/net7.0/Desafio06.pdb
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/obj/Debug/net7.0/Desafio06.dll
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/obj/Debug/net7.0/refint/Desafio06.dll
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/obj/Debug/net7.0/Desafio06.pdb
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/obj/Debug/net7.0/Desafio06.genruntimeconfig.cache
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio06/obj/Debug/net7.0/ref/Desafio06.dll

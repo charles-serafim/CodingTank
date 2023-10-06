@@ -27,6 +27,7 @@ nav:
   - Sobre: index.md
   - Anotações de aulas:
     - Aula 01: "Anotacoes_de_aulas/Aula01.md"
+    - Aula 02: "Anotacoes_de_aulas/Aula02.md"
   - Tutoriais:
     - VS Code: "Tutoriais/VSCode.md"
 

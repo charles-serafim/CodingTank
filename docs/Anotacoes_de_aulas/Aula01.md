@@ -1,5 +1,8 @@
 # Aula 01 - 04/10/2023
 
+### Exercícios e Desafios da aula
+[https://github.com/AlunosDiverseDEV2023/CodingTank1/tree/main/docs/Exercicios/Aula01](https://github.com/AlunosDiverseDEV2023/CodingTank1/tree/main/docs/Exercicios/Aula01)
+
 ## 1. Definições
 
 ### 1.1. Algoritmo

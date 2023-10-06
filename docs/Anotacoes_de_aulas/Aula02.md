@@ -1,5 +1,8 @@
 # Aula 02 - 05/10/2023
 
+### Exercícios e Desafios da aula
+[https://github.com/AlunosDiverseDEV2023/CodingTank1/tree/main/docs/Exercicios/Aula02](https://github.com/AlunosDiverseDEV2023/CodingTank1/tree/main/docs/Exercicios/Aula02)
+
 ## 1. Strings
 
 ### 1.1. Declaração

@@ -39,5 +39,10 @@ namespace Desafio2
                 opcao = char.Parse(Console.ReadLine());
             }
         }
+
+        static int CalcularIdade(int anoAtual, int anoNascimento)
+        {
+            return anoAtual - anoNascimento;
+        }
     }
 }

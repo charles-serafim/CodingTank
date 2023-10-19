@@ -1,0 +1,15 @@
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/bin/Debug/net7.0/Desafio10
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/bin/Debug/net7.0/Desafio10.deps.json
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/bin/Debug/net7.0/Desafio10.runtimeconfig.json
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/bin/Debug/net7.0/Desafio10.dll
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/bin/Debug/net7.0/Desafio10.pdb
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/obj/Debug/net7.0/Desafio10.csproj.AssemblyReference.cache
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/obj/Debug/net7.0/Desafio10.GeneratedMSBuildEditorConfig.editorconfig
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/obj/Debug/net7.0/Desafio10.AssemblyInfoInputs.cache
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/obj/Debug/net7.0/Desafio10.AssemblyInfo.cs
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/obj/Debug/net7.0/Desafio10.csproj.CoreCompileInputs.cache
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/obj/Debug/net7.0/Desafio10.dll
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/obj/Debug/net7.0/refint/Desafio10.dll
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/obj/Debug/net7.0/Desafio10.pdb
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/obj/Debug/net7.0/Desafio10.genruntimeconfig.cache
+/home/serafim/repos/CodingTank1/docs/Exercicios/Aula02/Desafio10/obj/Debug/net7.0/ref/Desafio10.dll

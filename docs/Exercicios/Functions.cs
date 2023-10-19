@@ -10,14 +10,14 @@ public class MyFunctions
     {
         double number;
 
-        while(true)
+        while (true)
         {
-            if(number = double.TryParse(Console.ReadLine())) break; // sai do loop se a leitura for feita com sucesso
+            if (number = double.TryParse(Console.ReadLine())) break; // sai do loop se a leitura for feita com sucesso
 
             Console.WriteLine("Entrada inválida. Por favor, digite um número.");
             Console.WriteLine();
         }
-        
+
         return number;
     }
 
@@ -25,14 +25,14 @@ public class MyFunctions
     {
         double number;
 
-        while(true)
+        while (true)
         {
             try
             {
                 number = double.Parse(Console.ReadLine());
                 break;
             }
-            catch(FormatException)
+            catch (FormatException)
             {
                 Console.WriteLine("Entrada inválida. Por favor, digite um número.");
                 Console.WriteLine();
@@ -47,7 +47,7 @@ public class MyFunctions
     {
         double number;
 
-        while(true)
+        while (true)
         {
             Console.WriteLine($"{objectDescription} {i}: ");
 
@@ -61,11 +61,11 @@ public class MyFunctions
     {
         double number;
 
-        while(true)
+        while (true)
         {
             number = ReadNumber();
 
-            if(number >= min && number <= max) break;
+            if (number >= min && number <= max) break;
 
             Console.WriteLine($"A entrada deve ser algum número entre {min} e {max}. Digite novamente.\n");
         }
@@ -76,115 +76,116 @@ public class MyFunctions
 
     /* UTILIDADES */
 
-    using System.Text.RegularExpressions;
-    static bool ReadYesOrNo(string question)
-        {
-            while(true)
-            {
-                string option = Console.ReadLine()?.ToLower();
-
-                if(Regex.IsMatch(option, "^(s(im)?|n(ao|ão)|n(ao)?o?)$")) return option.StartsWith("s");
-
-                Console.WriteLine("Entrada inválida.");
-                Console.WriteLine($"{question}? (s/n)");
-                Console.WriteLine();
-
-            }
-        }
-
-    static void GoOn()
+using System.Text.RegularExpressions;
+static bool ReadYesOrNo(string question)
+{
+    Console.WriteLine($"{question}? (s/n)");
+    while (true)
     {
+        string option = Console.ReadLine()?.ToLower();
+
+        if (Regex.IsMatch(option, "^(s(im)?|n(ao|ão)|n(ao)?o?)$")) return option.StartsWith("s");
+
+        Console.WriteLine("Entrada inválida.");
+        Console.WriteLine($"{question}? (s/n)");
         Console.WriteLine();
-        Console.WriteLine("Aperte qualquer tecla para continuar...");
-        Console.ReadLine();
-        Console.Clear();
+
+    }
+}
+
+static void GoOn()
+{
+    Console.WriteLine();
+    Console.WriteLine("Aperte qualquer tecla para continuar...");
+    Console.ReadLine();
+    Console.Clear();
+}
+
+static void PrintList(List<Type> objectList, string listDescription, string typeDescription)
+{
+    int count = 1;
+    Console.WriteLine($"{listDescription}:");
+    Console.WriteLine();
+
+    foreach (Type objectInstance in objectList)
+    {
+        Console.WriteLine($"{count:D3} - {typeDescription}: {objectInstance}");
+        count++;
     }
 
-    static void PrintList(List<Type> objectList, string listDescription, string typeDescription)
-    {
-        int count = 1;
-        Console.WriteLine($"{listDescription}:");
-        Console.WriteLine();
-
-        foreach(Type objectInstance in ObjectList)
-        {
-            Console.WriteLine($"{count:D3} - {typeDescription}: {objectInstance}");
-            count++;
-        }
-        
-        Console.WriteLine();
-    }
+    Console.WriteLine();
+}
 
 
     /* STRINGS */
 
     using System.Text.RegularExpressions;
     static string ReadWithPattern(string pattern)
+{
+    string entry;
+
+    while (true)
     {
-        string entry;
+        entry = Console.ReadLine();
 
-        while(true)
-        {
-            entry = Console.ReadLine();
+        if (Regex.IsMatch(entry, pattern)) break;
 
-            if(Regex.IsMatch(entry, pattern)) break;
-
-            Console.WriteLine("Entrada inválida. Digite novamente.\n");
-        }
-
-        return entry;
+        Console.WriteLine("Entrada inválida. Digite novamente.\n");
     }
 
-    static string FormatString(string entry)
-    {
-        entry = RemoveAccents(entry);
-        entry = RemoveSpecialCharacters(entry);
-        entry = RemoveSpaces(entry);
-        entry = entry.ToLower();
+    return entry;
+}
 
-        return entry;
-    }
+static string FormatString(string entry)
+{
+    entry = RemoveAccents(entry);
+    entry = RemoveSpecialCharacters(entry);
+    entry = RemoveSpaces(entry);
+    entry = entry.ToLower();
 
-    static string RemoveAccents(string entry)
-    {
-        string result = new string(
-            entry
-                .Normalize(NormalizationForm.FormD)
-                .Where(ch => CharUnicodeInfo.GetUnicodeCategory(ch) != UnicodeCategory.NonSpacingMark)
-                .ToArray()
-        );
-        return result;
-    }
+    return entry;
+}
 
-    static string RemoveSpecialCharacters(string entry)
-    {
-        string pattern = @"[^\w\s]";
-        string result = Regex.Replace(entry, pattern, string.Empty);
-        return result;
-    }
+static string RemoveAccents(string entry)
+{
+    string result = new string(
+        entry
+            .Normalize(NormalizationForm.FormD)
+            .Where(ch => CharUnicodeInfo.GetUnicodeCategory(ch) != UnicodeCategory.NonSpacingMark)
+            .ToArray()
+    );
+    return result;
+}
 
-    static string RemoveSpaces(string entry)
-    {
-        string result = entry.Replace(" ", "");
-        return result;
-    }
+static string RemoveSpecialCharacters(string entry)
+{
+    string pattern = @"[^\w\s]";
+    string result = Regex.Replace(entry, pattern, string.Empty);
+    return result;
+}
+
+static string RemoveSpaces(string entry)
+{
+    string result = entry.Replace(" ", "");
+    return result;
+}
 
 
-    /* INICIALIZAÇÃO ALEATÓRIA */
+/* INICIALIZAÇÃO ALEATÓRIA */
 
-    static void InitializeIntArray(int[] array, int limit)
-    {
-        Random random = new Random();
-        for (int i = 0; i < array.Length; i++)
-            array[i] = random.Next(limit);
-    }
+static void InitializeIntArray(int[] array, int limit)
+{
+    Random random = new Random();
+    for (int i = 0; i < array.Length; i++)
+        array[i] = random.Next(limit);
+}
 
-    static void InitializeDoubleArray(double[] array, double limit)
-    {
-        Random random = new Random();
-        for (int i = 0; i < array.Length; i++)
-            array[i] = random.NextDouble() * limit;
-    }
+static void InitializeDoubleArray(double[] array, double limit)
+{
+    Random random = new Random();
+    for (int i = 0; i < array.Length; i++)
+        array[i] = random.NextDouble() * limit;
+}
 
     
 }

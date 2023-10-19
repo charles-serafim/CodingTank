@@ -113,6 +113,3 @@ Em C#,
 * namespace: utilizado para agrupar arquivos dentro de um mesmo "pacote"
 
 * string[] args: parâmetros utilizados na linha de comando, que são passados para o programa quando rodamos o arquivo executável. No exemplo, a string nome receberia a string armazenada em args[0];
-
-### 2.4. Conversão de tipos de variáveis
-

@@ -29,7 +29,7 @@ namespace Desafio4
             {
                 Console.Clear();
 
-                Console.WriteLine("Digite o valor em reais: ");
+                Console.WriteLine("Digite o valor em reais, com as unidades decimais separadas por vírgula: ");
                 valorReal = float.Parse(Console.ReadLine());
 
                 valorDolar = CalcularValorDolar(valorReal, taxaRealDolar);
@@ -45,12 +45,12 @@ namespace Desafio4
 
         static float CalcularValorDolar(float valorReal, float taxaRealDolar)
         {
-            return valorReal * taxaRealDolar;
+            return valorReal / taxaRealDolar;
         }
 
         static float CalcularValorEuro(float valorReal, float taxaRealEuro)
         {
-            return valorReal * taxaRealEuro;
+            return valorReal / taxaRealEuro;
         }
     }
 }

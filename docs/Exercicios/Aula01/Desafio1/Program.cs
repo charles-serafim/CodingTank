@@ -1,5 +1,5 @@
 ﻿/*
-Desafio 1: Calculadora
+Desafio 01: Calculadora
 
 Objetivo: Escrever um programa que solicite ao usuário dois números e realize operações 
 simples de adição, subtração, multiplicação e divisão.
@@ -32,7 +32,7 @@ namespace Desafio1
                 Console.WriteLine("Digite o primeiro numero: ");
                 a = ReadNumber();
                 Console.WriteLine("Digite o segundo numero: ");
-                b = a = ReadNumber();
+                b = ReadNumber();
 
                 //chamar as funcoes
                 Console.WriteLine($"{a} + {b} = " + Soma(a, b));
@@ -66,22 +66,22 @@ namespace Desafio1
             return number;
         }
 
-        static int Soma(int a, int b)
+        static double Soma(double a, double b)
         {
             return a + b;
         }
 
-        static int Subtracao(int a, int b)
+        static double Subtracao(double a, double b)
         {
             return a - b;
         }
 
-        static int Multiplicacao(int a, int b)
+        static double Multiplicacao(double a, double b)
         {
             return a * b;
         }
 
-        static int Divisao(int a, int b)
+        static double Divisao(double a, double b)
         {
             return a / b;
         }

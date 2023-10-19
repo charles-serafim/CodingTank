@@ -57,7 +57,7 @@ namespace Desafio05
 
             while(true)
             {
-                Console.WriteLine("Quantidade de peixe pescada: ");
+                Console.WriteLine("Quantidade de peixe pescada (em kg): ");
 
                 try
                 {

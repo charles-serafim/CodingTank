@@ -13,9 +13,16 @@ namespace Desafio14
             Console.Clear();
 
             int sum = 0;
-            for(int i = 1; i <= 100; i++) sum += i;
+
+            // Soma de Gauss
+            sum = Gauss(1, 100);
 
             Console.WriteLine($"Soma dos números de 1 a 100: {sum}");
+        }
+
+        static int Gauss(int begin, int end)
+        {
+            return (begin + end) * (end - begin + 1) / 2;
         }
     }
 }

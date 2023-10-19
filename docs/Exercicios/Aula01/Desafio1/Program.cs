@@ -21,7 +21,7 @@ namespace Desafio1
         static void Main(string[] args)
         {
             char opcao = 's';
-            int a, b;
+            double a, b;
 
             while(opcao == 's')
             {
@@ -30,20 +30,40 @@ namespace Desafio1
                 
                 //ler as entradas do usuario
                 Console.WriteLine("Digite o primeiro numero: ");
-                a = int.Parse(Console.ReadLine());
+                a = ReadNumber();
                 Console.WriteLine("Digite o segundo numero: ");
-                b = int.Parse(Console.ReadLine());
+                b = a = ReadNumber();
 
                 //chamar as funcoes
-                Console.WriteLine("Soma: " + Soma(a, b));
-                Console.WriteLine("Subtracao: " + Subtracao(a, b));
-                Console.WriteLine("Multiplicacao: " + Multiplicacao(a, b));
-                Console.WriteLine("Divisao: " + Divisao(a, b));
+                Console.WriteLine($"{a} + {b} = " + Soma(a, b));
+                Console.WriteLine($"{a} - {b} = " + Subtracao(a, b));
+                Console.WriteLine($"{a} * {b} = " + Multiplicacao(a, b));
+                Console.WriteLine($"{a} / {b} = " + ((b == 0) ? "Não é possível dividir por zero." : Divisao(a, b)));
 
                 //perguntar se o usuario quer continuar
                 Console.WriteLine("Deseja continuar? (s/n)");
                 opcao = char.Parse(Console.ReadLine());
             }
+        }
+
+        static double ReadNumber()
+        {
+            double number;
+
+            while(true)
+            {
+                try
+                {
+                    number = double.Parse(Console.ReadLine());
+                    break;
+                }
+                catch(FormatException)
+                {
+                    Console.WriteLine("Entrada inválida. Por favor, digite um número.");
+                    Console.WriteLine();
+                }
+            }
+            return number;
         }
 
         static int Soma(int a, int b)
